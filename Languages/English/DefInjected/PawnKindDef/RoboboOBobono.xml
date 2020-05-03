@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PTdrone.label>drone</PTdrone.label>
+  <PTdrone.labelPlural>drones</PTdrone.labelPlural>
+  <PTdrone.labelMale>male drone</PTdrone.labelMale>
+  <PTdrone.labelMalePlural>male drones</PTdrone.labelMalePlural>
+  <PTdrone.labelFemale>female drone</PTdrone.labelFemale>
+  <PTdrone.labelFemalePlural>female drones</PTdrone.labelFemalePlural>
+
+  <PTdronetwo.label>combat drone</PTdronetwo.label>
+  <PTdronetwo.labelPlural>combat drones</PTdronetwo.labelPlural>
+  <PTdronetwo.labelMale>male combat drone</PTdronetwo.labelMale>
+  <PTdronetwo.labelMalePlural>male combat drones</PTdronetwo.labelMalePlural>
+  <PTdronetwo.labelFemale>female combat drone</PTdronetwo.labelFemale>
+  <PTdronetwo.labelFemalePlural>female combat drones</PTdronetwo.labelFemalePlural>
+
+  <PTandroid.label>android</PTandroid.label>
+  <PTandroid.labelPlural>androids</PTandroid.labelPlural>
+  <PTandroid.labelMale>male android</PTandroid.labelMale>
+  <PTandroid.labelMalePlural>male androids</PTandroid.labelMalePlural>
+  <PTandroid.labelFemale>female android</PTandroid.labelFemale>
+  <PTandroid.labelFemalePlural>female androids</PTandroid.labelFemalePlural>
+
+
+</LanguageData>

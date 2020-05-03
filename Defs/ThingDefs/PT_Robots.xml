@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Drones -->
+  <ThingDef ParentName="BaseMechanoid">
+    <defName>Mechanoid_PTdrone</defName>
+    <label>drone</label>
+    <description>Fast, human-sized combat drone.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>left blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftBlade</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+    <race>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <makesFootprints>true</makesFootprints>
+      <body>Scyther</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+          <soundCall>Pawn_Mech_Centipede_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+    </butcherProducts>
+  </ThingDef>
+  <!-- Drones -->
+  <ThingDef ParentName="BaseMechanoid">
+    <defName>Mechanoid_PTSocialbot</defName>
+    <label>android</label>
+    <description>Large humanlike android.</description>
+    <statBases>
+      <MoveSpeed>2</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>left blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftBlade</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+    <race>
+      <intelligence>ToolUser</intelligence>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <makesFootprints>true</makesFootprints>
+      <body>Scyther</body>
+      <baseBodySize>1.3</baseBodySize>
+      <baseHealthScale>2</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+          <soundCall>Pawn_Mech_Centipede_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <Steel>80</Steel>
+      <Plasteel>50</Plasteel>
+    </butcherProducts>
+  </ThingDef>
+</Defs>

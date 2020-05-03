@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_ChargoDeLanco.label>hypercharged shot</Bullet_ChargoDeLanco.label>
+
+  <Gunnar_ChargoDeLanco.label>charged sniper rifle</Gunnar_ChargoDeLanco.label>
+  <Gunnar_ChargoDeLanco.description>Charged-shot Sniper rifle. Fires a single charged shot at high velocity.</Gunnar_ChargoDeLanco.description>
+
+  <Gunnar_ChargoDeLancoTwo.label>charged sniper rifle</Gunnar_ChargoDeLancoTwo.label>
+  <Gunnar_ChargoDeLancoTwo.description>Charged-shot Sniper rifle. Fires a single charged shot at high velocity.</Gunnar_ChargoDeLancoTwo.description>
+
+
+  <!-- T-9 incendiary launcher -->
+
+  <Bulletto_IncendiaryLauncheroos.label>incendiary bolt</Bulletto_IncendiaryLauncheroos.label>
+
+  <Gunnar_IncendiaryInsidious.label>incendiary cannon</Gunnar_IncendiaryInsidious.label>
+  <Gunnar_IncendiaryInsidious.description>Incendiary bolt cannon. Starts fires.</Gunnar_IncendiaryInsidious.description>
+
+  <Bulletto_IncendiaryLauncheroosTwo.label>incendiary bolt</Bulletto_IncendiaryLauncheroosTwo.label>
+
+  <Gunnar_IncendiaryInsidiousTwo.label>incendiary chargecannon</Gunnar_IncendiaryInsidiousTwo.label>
+  <Gunnar_IncendiaryInsidiousTwo.description>Incendiary bolt rapidfire cannon. Starts fires.</Gunnar_IncendiaryInsidiousTwo.description>
+
+
+  <!-- Charge rifle -->
+
+  <Bullet_ChargoDiRiflo.label>hypercharged shot</Bullet_ChargoDiRiflo.label>
+
+  <Gunnar_HyperchargedRifle.label>hypercharged rifle</Gunnar_HyperchargedRifle.label>
+  <Gunnar_HyperchargedRifle.description>Charged-shot energy/projectile assault rifle.</Gunnar_HyperchargedRifle.description>
+
+  <Bullet_ORB.label>subjucation wave</Bullet_ORB.label>
+
+  <Gunnar_ORB.label>Subjucation crystal</Gunnar_ORB.label>
+  <Gunnar_ORB.description>Quite the STUNNING technology!</Gunnar_ORB.description>
+
+
+</LanguageData>

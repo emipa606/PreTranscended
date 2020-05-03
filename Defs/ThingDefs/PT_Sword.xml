@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================================================== -->
+  <ToolCapacityDef>
+    <defName>FlameStrike</defName>
+    <label>Flame Strike</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>FlameStrike</defName>
+    <requiredCapacity>Cut</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Flame</meleeDamageDef>
+      <soundCast>Interact_Ignite</soundCast>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>BurnStrike</defName>
+    <label>Burn Strike</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>BurnStrike</defName>
+    <requiredCapacity>Poke</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Burn</meleeDamageDef>
+      <soundCast>Interact_Ignite</soundCast>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Poke_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Poke_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Poke_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>PT_Sword</defName>
+    <label>blazephaserblade</label>
+    <description>Crackling lightning! Zzzing! Zarp! Zhuum! Zchtup! Zhwoom!</description>
+    <graphicData>
+      <texPath>PacsGunnar/PTsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.85</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>BurnStrike</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>FlameStrike</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+    </tools>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+</Defs>
