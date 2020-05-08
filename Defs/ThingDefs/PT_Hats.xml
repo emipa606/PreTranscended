@@ -92,7 +92,7 @@
     </colorGenerator>
   </ThingDef>
   <!--Commissar-->
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="HatBase">
     <defName>Apparello_PTCommissar</defName>
     <label>Peaked cap</label>
     <description>Often seen on military officers.</description>
@@ -102,9 +102,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tradeability>Sellable</tradeability>
-    <thingCategories>
-      <li>Headgear</li>
-    </thingCategories>
     <statBases>
       <MarketValue>250</MarketValue>
       <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
@@ -142,7 +139,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="HatBase">
     <defName>Apparello_PTAerodynamicDROP</defName>
     <label>Aerodynamic Visor</label>
     <description>Pre transcended technology. Fitted with selfdestructive systems (lucky for you it seems to be defective! and so can in fact be removed from the wearer without breaking.)</description>
@@ -152,9 +149,6 @@
     </graphicData>
     <useHitPoints>True</useHitPoints>
     <tradeability>Sellable</tradeability>
-    <thingCategories>
-      <li>Headgear</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>

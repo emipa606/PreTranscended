@@ -9,6 +9,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tradeability>Sellable</tradeability>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
       <MarketValue>1000</MarketValue>
