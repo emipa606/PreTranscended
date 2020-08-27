@@ -7,7 +7,7 @@
   </ToolCapacityDef>
   <ManeuverDef>
     <defName>FlameStrike</defName>
-    <requiredCapacity>Cut</requiredCapacity>
+    <requiredCapacity>FlameStrike</requiredCapacity>
     <verb>
       <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>Flame</meleeDamageDef>
@@ -25,7 +25,7 @@
   </ToolCapacityDef>
   <ManeuverDef>
     <defName>BurnStrike</defName>
-    <requiredCapacity>Poke</requiredCapacity>
+    <requiredCapacity>BurnStrike</requiredCapacity>
     <verb>
       <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>Burn</meleeDamageDef>
