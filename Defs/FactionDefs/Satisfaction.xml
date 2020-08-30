@@ -52,6 +52,23 @@
           <PTandroid>7</PTandroid>
         </options>
       </li>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <PreTrainInfantry>10</PreTrainInfantry>
+          <PreTrainGrenadier>8</PreTrainGrenadier>
+          <PreTrainHeavy>8</PreTrainHeavy>
+          <PreTrainKnight>15</PreTrainKnight>
+          <PreTrainKnightLOOT>15</PreTrainKnightLOOT>
+          <PreTrainSpecialist>10</PreTrainSpecialist>
+          <PreTrainOverseer>5</PreTrainOverseer>
+          <PTdrone>15</PTdrone>
+          <PTdronetwo>10</PTdronetwo>
+          <PTandroid>7</PTandroid>
+        </options>
+      </li>
     </pawnGroupMakers>
     <factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
