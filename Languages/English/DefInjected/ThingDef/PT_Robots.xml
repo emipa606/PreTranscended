@@ -1,17 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Drones -->
-
   <Mechanoid_PTdrone.label>drone</Mechanoid_PTdrone.label>
   <Mechanoid_PTdrone.description>Fast, human-sized combat drone.</Mechanoid_PTdrone.description>
   <Mechanoid_PTdrone.tools.0.label>left blade</Mechanoid_PTdrone.tools.0.label>
   <Mechanoid_PTdrone.tools.1.label>right blade</Mechanoid_PTdrone.tools.1.label>
-
   <Mechanoid_PTSocialbot.label>android</Mechanoid_PTSocialbot.label>
   <Mechanoid_PTSocialbot.description>Large humanlike android.</Mechanoid_PTSocialbot.description>
   <Mechanoid_PTSocialbot.tools.0.label>left blade</Mechanoid_PTSocialbot.tools.0.label>
   <Mechanoid_PTSocialbot.tools.1.label>right blade</Mechanoid_PTSocialbot.tools.1.label>
-
-
 </LanguageData>

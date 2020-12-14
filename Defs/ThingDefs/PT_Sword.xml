@@ -51,6 +51,7 @@
     </thingCategories>
     <statBases>
       <Mass>0.85</Mass>
+      <MarketValue>350</MarketValue>
     </statBases>
     <techLevel>Spacer</techLevel>
     <equippedAngleOffset>-65</equippedAngleOffset>
