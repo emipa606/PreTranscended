@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPTBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[OrbitalBubblegum]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>OrbitalBubblegum</keyword>
+          <path>BankyPT/Orbital</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

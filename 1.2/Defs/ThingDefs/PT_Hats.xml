@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparello_PTAerodynamic</defName>
+    <label>Aerodynamic Visor</label>
+    <description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</description>
+    <graphicData>
+      <texPath>PreAcs/AcsHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.53</ArmorRating_Sharp>
+      <Insulation_Heat>10</Insulation_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Mass>1</Mass>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <MoveSpeed>-0.02</MoveSpeed>
+      <PsychicSensitivity>-0.05</PsychicSensitivity>
+      <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+      <GlobalLearningFactor>0.02</GlobalLearningFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcs/AcsHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>PreTranny</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparello_PTKurt</defName>
+    <label>Aerocowl</label>
+    <description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</description>
+    <graphicData>
+      <texPath>PreAcsElite/Kurt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <Mass>1</Mass>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcsElite/Kurt</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>PreTrannyElite</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <!--Commissar-->
+  <ThingDef ParentName="HatBase">
+    <defName>Apparello_PTCommissar</defName>
+    <label>Peaked cap</label>
+    <description>Often seen on military officers.</description>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <texPath>PreAcs/DisCommissar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>-1</Insulation_Heat>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <Mass>1</Mass>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcs/Commissar</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>PTHattegat</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>4</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparello_PTAerodynamicDROP</defName>
+    <label>Aerodynamic Visor</label>
+    <description>Pre transcended technology. Fitted with selfdestructive systems (lucky for you it seems to be defective! and so can in fact be removed from the wearer without breaking.)</description>
+    <graphicData>
+      <texPath>PreAcs/AcsHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>True</useHitPoints>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <MarketValue>1000</MarketValue>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.53</ArmorRating_Sharp>
+      <Insulation_Heat>5</Insulation_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Mass>1</Mass>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <MoveSpeed>-0.02</MoveSpeed>
+      <PsychicSensitivity>-0.05</PsychicSensitivity>
+      <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+      <GlobalLearningFactor>0.02</GlobalLearningFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcs/AcsHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>PreTranny</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,0.9,0.8,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
