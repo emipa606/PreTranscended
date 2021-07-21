@@ -49,6 +49,7 @@
     <description>Frontier expedition of highly advanced humans. They're more machine than human and hard to reason with.</description>
     <pawnsPlural>pre transcendents</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
