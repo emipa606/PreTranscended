@@ -1,25 +1,16 @@
 # PreTranscended
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Shinzys mod
 https://ludeon.com/forums/index.php?topic=7670.0
 
 - Adds a spacer faction, always enemy
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/PreTranscended]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Not once has a faction been so skimpy about dropping their armor! Such armor - few loot - wow.
@@ -28,7 +19,7 @@ The pre transcendents are very, very futuristic and mostly unfriendly
 Comes with robotic companion friends!
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
