@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparello_PTArmor</defName>
+    <label>Transcended Armor</label>
+    <description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</description>
+    <graphicData>
+      <texPath>PreAcs/PreAcs</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.8</ArmorRating_Heat>
+      <Insulation_Cold>35</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <Mass>3</Mass>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>1</MoveSpeed>
+      <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcs/PreAcs</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>PreTranny</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparello_PTArmorElite</defName>
+    <label>Transcended Armor</label>
+    <description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</description>
+    <graphicData>
+      <texPath>PreAcsElite/PreAcs</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.8</ArmorRating_Heat>
+      <Insulation_Cold>35</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <Mass>3.5</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>1</MoveSpeed>
+      <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>PreAcsElite/PreAcs</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>PreTrannyElite</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
