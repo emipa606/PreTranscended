@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: PreTranscended -->
+  <PreTransfaction.label>PreTranscended</PreTransfaction.label>
+  <!-- EN: Frontier expedition of highly advanced humans. They're more machine than human and hard to reason with. -->
+  <PreTransfaction.description>Frontier expedition of highly advanced humans. They're more machine than human and hard to reason with.</PreTransfaction.description>
+  <!-- EN: Overseer -->
+  <PreTransfaction.leaderTitle>Overseer</PreTransfaction.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <PreTransfaction.messageDefendersAttacking>{0} from {1} are attacking your {2}.</PreTransfaction.messageDefendersAttacking>
+  <!-- EN: member -->
+  <PreTransfaction.pawnSingular>member</PreTransfaction.pawnSingular>
+  <!-- EN: pre transcendents -->
+  <PreTransfaction.pawnsPlural>pre transcendents</PreTransfaction.pawnsPlural>
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: grenadier -->
+  <PreTrainGrenadier.label>grenadier</PreTrainGrenadier.label>
+  <PreTrainGrenadier.labelPlural />
+  <!-- EN: heavyweapon specialist -->
+  <PreTrainHeavy.label>heavyweapon specialist</PreTrainHeavy.label>
+  <PreTrainHeavy.labelPlural />
+  <!-- EN: infantry -->
+  <PreTrainInfantry.label>infantry</PreTrainInfantry.label>
+  <PreTrainInfantry.labelPlural />
+  <!-- EN: pacificator -->
+  <PreTrainKnight.label>pacificator</PreTrainKnight.label>
+  <PreTrainKnight.labelPlural />
+  <!-- EN: pacificator -->
+  <PreTrainKnightLOOT.label>pacificator</PreTrainKnightLOOT.label>
+  <PreTrainKnightLOOT.labelPlural />
+  <!-- EN: overseer -->
+  <PreTrainOverseer.label>overseer</PreTrainOverseer.label>
+  <PreTrainOverseer.labelPlural />
+  <!-- EN: specialist -->
+  <PreTrainSpecialist.label>specialist</PreTrainSpecialist.label>
+  <PreTrainSpecialist.labelPlural />
+</LanguageData>

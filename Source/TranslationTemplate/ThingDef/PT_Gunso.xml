@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: hypercharged shot -->
+  <Bullet_ChargoDeLanco.label>hypercharged shot</Bullet_ChargoDeLanco.label>
+  <!-- EN: hypercharged shot -->
+  <Bullet_ChargoDiRiflo.label>hypercharged shot</Bullet_ChargoDiRiflo.label>
+  <!-- EN: subjucation wave -->
+  <Bullet_ORB.label>subjucation wave</Bullet_ORB.label>
+  <!-- EN: incendiary bolt -->
+  <Bulletto_IncendiaryLauncheroos.label>incendiary bolt</Bulletto_IncendiaryLauncheroos.label>
+  <!-- EN: incendiary bolt -->
+  <Bulletto_IncendiaryLauncheroosTwo.label>incendiary bolt</Bulletto_IncendiaryLauncheroosTwo.label>
+  <!-- EN: charged sniper rifle -->
+  <Gunnar_ChargoDeLanco.label>charged sniper rifle</Gunnar_ChargoDeLanco.label>
+  <!-- EN: Charged-shot Sniper rifle. Fires a single charged shot at high velocity. -->
+  <Gunnar_ChargoDeLanco.description>Charged-shot Sniper rifle. Fires a single charged shot at high velocity.</Gunnar_ChargoDeLanco.description>
+  <!-- EN: charged sniper rifle -->
+  <Gunnar_ChargoDeLanco.verbs.Verb_Shoot.label>charged sniper rifle</Gunnar_ChargoDeLanco.verbs.Verb_Shoot.label>
+  <!-- EN: charged sniper rifle -->
+  <Gunnar_ChargoDeLancoTwo.label>charged sniper rifle</Gunnar_ChargoDeLancoTwo.label>
+  <!-- EN: Charged-shot Sniper rifle. Fires a single charged shot at high velocity. -->
+  <Gunnar_ChargoDeLancoTwo.description>Charged-shot Sniper rifle. Fires a single charged shot at high velocity.</Gunnar_ChargoDeLancoTwo.description>
+  <!-- EN: charged sniper rifle -->
+  <Gunnar_ChargoDeLancoTwo.verbs.Verb_Shoot.label>charged sniper rifle</Gunnar_ChargoDeLancoTwo.verbs.Verb_Shoot.label>
+  <!-- EN: hypercharged rifle -->
+  <Gunnar_HyperchargedRifle.label>hypercharged rifle</Gunnar_HyperchargedRifle.label>
+  <!-- EN: Charged-shot energy/projectile assault rifle. -->
+  <Gunnar_HyperchargedRifle.description>Charged-shot energy/projectile assault rifle.</Gunnar_HyperchargedRifle.description>
+  <!-- EN: hypercharged rifle -->
+  <Gunnar_HyperchargedRifle.verbs.Verb_Shoot.label>hypercharged rifle</Gunnar_HyperchargedRifle.verbs.Verb_Shoot.label>
+  <!-- EN: incendiary cannon -->
+  <Gunnar_IncendiaryInsidious.label>incendiary cannon</Gunnar_IncendiaryInsidious.label>
+  <!-- EN: Incendiary bolt cannon. Starts fires. -->
+  <Gunnar_IncendiaryInsidious.description>Incendiary bolt cannon. Starts fires.</Gunnar_IncendiaryInsidious.description>
+  <!-- EN: incendiary cannon -->
+  <Gunnar_IncendiaryInsidious.verbs.Verb_Shoot.label>incendiary cannon</Gunnar_IncendiaryInsidious.verbs.Verb_Shoot.label>
+  <!-- EN: incendiary chargecannon -->
+  <Gunnar_IncendiaryInsidiousTwo.label>incendiary chargecannon</Gunnar_IncendiaryInsidiousTwo.label>
+  <!-- EN: Incendiary bolt rapidfire cannon. Starts fires. -->
+  <Gunnar_IncendiaryInsidiousTwo.description>Incendiary bolt rapidfire cannon. Starts fires.</Gunnar_IncendiaryInsidiousTwo.description>
+  <!-- EN: incendiary chargecannon -->
+  <Gunnar_IncendiaryInsidiousTwo.verbs.Verb_Shoot.label>incendiary chargecannon</Gunnar_IncendiaryInsidiousTwo.verbs.Verb_Shoot.label>
+  <!-- EN: Subjucation crystal -->
+  <Gunnar_ORB.label>Subjucation crystal</Gunnar_ORB.label>
+  <!-- EN: Quite the STUNNING technology! -->
+  <Gunnar_ORB.description>Quite the STUNNING technology!</Gunnar_ORB.description>
+  <!-- EN: Subjucation crystal -->
+  <Gunnar_ORB.verbs.Verb_Shoot.label>Subjucation crystal</Gunnar_ORB.verbs.Verb_Shoot.label>
+</LanguageData>

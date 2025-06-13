@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Aerodynamic Visor -->
+  <Apparello_PTAerodynamic.label>Aerodynamic Visor</Apparello_PTAerodynamic.label>
+  <!-- EN: Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking. -->
+  <Apparello_PTAerodynamic.description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</Apparello_PTAerodynamic.description>
+  <!-- EN: Aerodynamic Visor -->
+  <Apparello_PTAerodynamicDROP.label>Aerodynamic Visor</Apparello_PTAerodynamicDROP.label>
+  <!-- EN: Pre transcended technology. Fitted with selfdestructive systems (lucky for you it seems to be defective! and so can in fact be removed from the wearer without breaking.) -->
+  <Apparello_PTAerodynamicDROP.description>Pre transcended technology. Fitted with selfdestructive systems (lucky for you it seems to be defective! and so can in fact be removed from the wearer without breaking.)</Apparello_PTAerodynamicDROP.description>
+  <!-- EN: Peaked cap -->
+  <Apparello_PTCommissar.label>Peaked cap</Apparello_PTCommissar.label>
+  <!-- EN: Often seen on military officers. -->
+  <Apparello_PTCommissar.description>Often seen on military officers.</Apparello_PTCommissar.description>
+  <!-- EN: Aerocowl -->
+  <Apparello_PTKurt.label>Aerocowl</Apparello_PTKurt.label>
+  <!-- EN: Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking. -->
+  <Apparello_PTKurt.description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</Apparello_PTKurt.description>
+</LanguageData>

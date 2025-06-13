@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Transcended Armor -->
+  <Apparello_PTArmor.label>Transcended Armor</Apparello_PTArmor.label>
+  <!-- EN: Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking. -->
+  <Apparello_PTArmor.description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</Apparello_PTArmor.description>
+  <!-- EN: Transcended Armor -->
+  <Apparello_PTArmorElite.label>Transcended Armor</Apparello_PTArmorElite.label>
+  <!-- EN: Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking. -->
+  <Apparello_PTArmorElite.description>Pre transcended technology. Fitted with selfdestructive systems, cannot be removed from the wearer without breaking.</Apparello_PTArmorElite.description>
+</LanguageData>

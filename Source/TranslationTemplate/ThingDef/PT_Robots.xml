@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: drone -->
+  <Mechanoid_PTdrone.label>drone</Mechanoid_PTdrone.label>
+  <!-- EN: Fast, human-sized combat drone. -->
+  <Mechanoid_PTdrone.description>Fast, human-sized combat drone.</Mechanoid_PTdrone.description>
+  <!-- EN: left blade -->
+  <Mechanoid_PTdrone.tools.left_blade.label>left blade</Mechanoid_PTdrone.tools.left_blade.label>
+  <!-- EN: right blade -->
+  <Mechanoid_PTdrone.tools.right_blade.label>right blade</Mechanoid_PTdrone.tools.right_blade.label>
+  <!-- EN: android -->
+  <Mechanoid_PTSocialbot.label>android</Mechanoid_PTSocialbot.label>
+  <!-- EN: Large humanlike android. -->
+  <Mechanoid_PTSocialbot.description>Large humanlike android.</Mechanoid_PTSocialbot.description>
+  <!-- EN: left blade -->
+  <Mechanoid_PTSocialbot.tools.left_blade.label>left blade</Mechanoid_PTSocialbot.tools.left_blade.label>
+  <!-- EN: right blade -->
+  <Mechanoid_PTSocialbot.tools.right_blade.label>right blade</Mechanoid_PTSocialbot.tools.right_blade.label>
+</LanguageData>
